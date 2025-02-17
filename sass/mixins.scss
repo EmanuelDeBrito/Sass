@@ -1,0 +1,10 @@
+/* Usando Mixins */
+
+@mixin cores($background, $color) {
+    background-color: $background;
+    color: $color;
+}
+
+body {
+    @include cores(#000, #FFF);
+}

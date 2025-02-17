@@ -1,0 +1,9 @@
+/* Criando variáveis em sass */
+
+$background: green;
+$color: #FFF;
+
+body {
+    background-color: $background;
+    color: $color;
+}

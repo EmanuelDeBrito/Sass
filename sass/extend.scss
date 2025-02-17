@@ -1,0 +1,26 @@
+/* Usando agrupamentos de estilizações com extend */
+
+%button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-big {
+    @extend %button;
+    padding: 15px 30px;
+}
+
+.button-medium {
+    @extend %button;
+    padding: 10px 20px;
+}
+
+.button-small {
+    @extend %button;
+    padding: 5px 10px;
+}

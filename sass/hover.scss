@@ -1,0 +1,12 @@
+/* Usando hover no sass */
+
+h1 {
+    color: red;
+    font-size: 30px;
+    transition: all ease .3s;
+
+    /* & referencia ao próprio elemento que você está dentro */
+    &:hover {
+        color: green;
+    }
+}
